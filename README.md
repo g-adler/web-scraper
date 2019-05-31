@@ -1,1 +1,3 @@
 # web-scraper
+## Explicando a implementação
+#### Decidi fazer uma aplicação Standalone que simplesmente me retornasse os dados já formatados em Json. Utilizei o BeautifulSoup para permitir analisar os dados da página dada e extrair as informações relevantes. Realizei a implementação Docker pois ao meu ver foi uma solução bem eloquente para o projeto, como estamos falando de uma aplicação desacoplada o Docker traz benefícios interessantes, como orquestração de deploy para ambos lados da aplicação usando o composer. Para conveniência a mais, preparei uma imagem Docker já preparada para desenvolvimento web com React.
